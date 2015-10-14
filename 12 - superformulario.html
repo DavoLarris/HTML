@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="UTF-8"> <!--Siempre poner juego de caracteres, ante la duda UTF-8 -->
+    <title>Formulario</title> <!--Siempre título-->
+    </head>
+
+  <body>
+
+      <form name="formu" action="" method="post" enctype="multipart/form-data">
+        <fieldset><legend>Login</legend>
+        <div><label for="user">User</label></div>
+        <div><input type="text" id="user" name="user" ></div>
+        <div><label for="pass">Password</label></div>
+        <div><input type="password" id="pass" name="pass" ></div>
+
+        <div><label for="texto">Texto</label></div>
+        <div><textarea id="texto" name="texto" cols="40" rows="10">
+        </textarea></div>
+        <div><input type="submit" name="newpost" value="New post"></div>
+        <br>
+
+        <div><label for="estado">Estado civil</label></div>
+        <div><select name="estado" id="estado">
+          <option value="45">Soltero y buscando ;)</option>
+          <option value="23" selected="selected">Casado y aburrido</option>
+          <option value="42">Ni lo uno ni lo otro, un rollete</option>
+        </select></div>
+
+        <div><label for="posesiones">Posesiones</label></div>
+        <div><select name="posesiones" id="posesiones" multiple="multiple" size="10">
+          <optgroup label="vehiculos">
+          <option value="45">Coche</option>
+          <option value="42">Moto</option>
+        </optgroup>
+        <optgroup label="Inmuebles">
+          <option value="42">Casa</option>
+          <option value="42">Apartament</option>
+        </optgroup>
+        <optgroup label="Telefonos">
+          <option value="23" selected="selected">Android</option>
+          <option value="42">Wind Phone</option>
+          <option value="20">BlackBirria</option>
+        </optgroup>
+        </select></div>
+
+        <br>
+
+        <div><label for="titulaciones">Titulaciones</label></div>
+        <div><input type="checkbox" name="titulacion" id="eso"/>
+              <label for="eso">ESO</label> <!--Poner en for, el mismo id del input para que al clicar sobre el nombre se marque-->
+              <input type="checkbox" name="titulacion" id="bach"/>
+              <label for="bach">Bach</label>
+              <input type="checkbox" name="titulacion" id="nada"/>
+              <label for="nada">Nada</label>
+        </div>
+
+        <br>
+
+        <div><label for="sexo">Sexo</label></div>
+        <div><input type="radio" name="sexo" id="h"/>
+              <label for="h">Hombre</label> <!--Poner en for, el mismo id del input para que al clicar sobre el nombre se marque-->
+              <input type="radio" name="sexo" id="m"/>
+              <label for="m">Mujer</label>
+              <input type="radio" name="sexo" id="cambio"/>
+              <label for="cambio">Cambio</label>
+        </div>
+
+        <input type="hidden" name="codigo" id="codigo" value="666"/>
+
+        <br>
+
+        <div><label for="foto">Foto</label></div>
+        <div><input type="file" name="fichero" id="fichero"/></div>
+
+        <div><input type="button" name="hazalgo" value="Hola"/></div>
+        <div><input type="reset" name="reset" id="reset"/></div>
+
+
+
+
+
+        </fieldset>
+      </form>
+
+  </body>
+
+</html>

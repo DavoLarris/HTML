@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"> <!--Siempre poner juego de caracteres, ante la duda UTF-8 -->
+    <title>Fotos</title> <!--Siempre título-->
+    </head>
+
+    <script>
+    function bigImg(x) {
+        x.style.height = "400px";
+        x.style.width = "600px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "283px";
+        x.style.width = "470px";
+    }
+    </script>
+
+  <body>
+      <p>Hello world!!</p>
+      <img alt="Coche" title="Lamborgini" src="1362505524_1.jpg" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="50">
+  </body>
+</html>

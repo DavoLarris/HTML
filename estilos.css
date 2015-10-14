@@ -1,0 +1,38 @@
+/*
+ESTILOS EN CSS
+
+AUTOR DAVID LARREA
+
+*/
+
+html { /*Estilos aqui
+*/
+}
+
+body {
+  background-color: pink;
+
+}
+
+#h1importante {
+  border: 20px solid blue;
+}
+
+h2 {
+  font-size: 200px;
+  color: red;
+}
+
+.greenp {
+  color: green;
+  font-size: 10px;
+}
+
+.bluep {
+  color:blue;
+}
+
+h1 {
+  font-size: 100px;
+  color: inherit;
+}

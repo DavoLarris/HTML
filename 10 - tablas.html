@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"> <!--Siempre poner juego de caracteres, ante la duda UTF-8 -->
+    <title>Tables</title> <!--Siempre título-->
+    </head>
+
+  <body>
+      <table border="1" cellspacing="6" cellpadding="5" width="100%">
+        <thead> <!-- agrupacion de cabecera de tabla-->
+        <tr style="background-color:red">
+          <th>Lala</th> <!--th resalta las celdas-->
+          <th>lolo</th>
+        </tr> <!--tr para definir linea de tabla-->
+      </thead>
+        <tbody> <!--agrupacion del cuerpo de la tabla-->
+        <tr>
+          <td>Lele</td> <!--td para definir las celdas (Tantas como queramos)-->
+          <td>lili</td>
+        </tr>
+        <tr>
+          <td>Lloplop</td>
+          <td rowspan="2">lalala</td>
+        </tr>
+        <tr>
+          <td>Lloplop</td>
+        </tr>
+       </tbody>
+       <tfoot> <!--agrupacion del pie de la tabla-->
+       <tr>
+         <td colspan="2">Lloplop</td>
+       </tr>
+     </tfoot>
+      </table>
+  </body>
+</html>
