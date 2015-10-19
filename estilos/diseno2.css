@@ -1,0 +1,29 @@
+#uno {
+  background-color: black;
+  height: 20%;
+    color:white;
+}
+
+#dos {
+    background-color: white;
+    height: 70%;
+}
+
+#tres {
+    background-color: purple;
+    height: 10%;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    border: 8px dashed blue;
+}
+
+#tres:hover {
+    background-color: aqua;
+}
+
+#containter {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    
+}
